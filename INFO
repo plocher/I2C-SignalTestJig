@@ -1,0 +1,9 @@
+title: I2C-SignalTestJig
+project: I2C-SignalTestJig
+designer: John Plocher
+author: John Plocher
+fabricated: no
+fab_date: 
+status: released
+release: yes
+tags: [eagle, SPCoast, Signals, TestJig]
