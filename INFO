@@ -6,4 +6,4 @@ fabricated: no
 fab_date: 
 status: released
 release: yes
-tags: [eagle, SPCoast, Signals, TestJig]
+tags: [eagle, SPCoast, Signal, I2C, TestJig]
