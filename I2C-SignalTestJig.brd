@@ -8,17 +8,17 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="2" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="29" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="19" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="17" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="30" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="63" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="39" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="34" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="56" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -37,12 +37,12 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="3" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="35" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="35" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="21" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="44" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="48" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="16" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="35" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="35" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="21" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="36" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="48" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -55,7 +55,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="Anatomie" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Hidden" color="57" fill="4" visible="yes" active="yes"/>
+<layer number="101" name="Hidden" color="57" fill="4" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
@@ -858,113 +858,113 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BOARD1" library="SPCoast" package="BOARD-SEEED10X10-NOHOLES" value="" x="0" y="0" smashed="yes"/>
+<element name="BOARD1" library="SPCoast" package="BOARD-SEEED10X10-NOHOLES" value="10x10" x="0" y="0" smashed="yes"/>
 <element name="CON1" library="SPCoast" package="1X04_LOCK" value="1x4" x="76.2" y="95.25" smashed="yes">
-<attribute name="NAME" x="83.439" y="91.948" size="1.778" layer="25" font="vector" ratio="11" rot="SR180"/>
+<attribute name="NAME" x="83.439" y="91.948" size="1.016" layer="25" font="vector" ratio="11" rot="SR180"/>
 </element>
 <element name="CON2" library="SPCoast" package="1X04_LOCK" value="1x4" x="63.5" y="95.25" smashed="yes">
-<attribute name="NAME" x="70.739" y="91.948" size="1.778" layer="25" font="vector" ratio="11" rot="SR180"/>
+<attribute name="NAME" x="70.739" y="91.948" size="1.016" layer="25" font="vector" ratio="11" rot="SR180"/>
 </element>
 <element name="CON3" library="SPCoast" package="1X04_LOCK" value="1x4" x="50.8" y="95.25" smashed="yes">
-<attribute name="NAME" x="58.039" y="91.948" size="1.778" layer="25" font="vector" ratio="11" rot="SR180"/>
+<attribute name="NAME" x="58.039" y="91.948" size="1.016" layer="25" font="vector" ratio="11" rot="SR180"/>
 </element>
 <element name="CON4" library="SPCoast" package="1X04_LOCK" value="1x4" x="38.1" y="95.25" smashed="yes">
-<attribute name="NAME" x="45.339" y="91.948" size="1.778" layer="25" font="vector" ratio="11" rot="SR180"/>
+<attribute name="NAME" x="45.339" y="91.948" size="1.016" layer="25" font="vector" ratio="11" rot="SR180"/>
 </element>
 <element name="CON5" library="SPCoast" package="1X04_LOCK" value="1x4" x="25.4" y="95.25" smashed="yes">
-<attribute name="NAME" x="32.639" y="91.948" size="1.778" layer="25" font="vector" ratio="11" rot="SR180"/>
+<attribute name="NAME" x="32.639" y="91.948" size="1.016" layer="25" font="vector" ratio="11" rot="SR180"/>
 </element>
 <element name="CON6" library="SPCoast" package="1X04_LOCK" value="1x4" x="12.7" y="95.25" smashed="yes">
-<attribute name="NAME" x="19.939" y="91.948" size="1.778" layer="25" font="vector" ratio="11" rot="SR180"/>
+<attribute name="NAME" x="19.939" y="91.948" size="1.016" layer="25" font="vector" ratio="11" rot="SR180"/>
 </element>
 <element name="IC1" library="SPCoast" package="SO16" value="74LS139D" x="74.93" y="72.39" smashed="yes" rot="R270">
-<attribute name="NAME" x="73.279" y="65.151" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="73.279" y="65.151" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="74.533" y="76.732" size="1.27" layer="27" ratio="10" rot="SR270"/>
 </element>
 <element name="R5" library="SPCoast" package="0805-RES" value="1K0" x="68.58" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="68.223" y="84.669" size="0.8128" layer="25" font="vector" ratio="15" rot="SR270"/>
+<attribute name="NAME" x="68.223" y="82.129" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R6" library="SPCoast" package="0805-RES" value="470R" x="66.04" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="65.737" y="84.661" size="0.8128" layer="25" font="vector" ratio="15" rot="SR270"/>
+<attribute name="NAME" x="65.737" y="82.121" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R4" library="SPCoast" package="0805-RES" value="1K0" x="71.12" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="70.863" y="84.769" size="0.8128" layer="25" font="vector" ratio="15" rot="SR270"/>
+<attribute name="NAME" x="70.863" y="82.229" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R2" library="SPCoast" package="0805-RES" value="1K0" x="81.28" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="80.899" y="84.963" size="0.8128" layer="25" font="vector" ratio="15" rot="SR270"/>
+<attribute name="NAME" x="80.899" y="81.788" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R3" library="SPCoast" package="0805-RES" value="470R" x="78.74" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="78.359" y="84.963" size="0.8128" layer="25" font="vector" ratio="15" rot="SR270"/>
+<attribute name="NAME" x="78.359" y="81.788" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R1" library="SPCoast" package="0805-RES" value="1K0" x="83.82" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="83.417" y="84.917" size="0.8128" layer="25" font="vector" ratio="15" rot="SR270"/>
+<attribute name="NAME" x="83.417" y="81.742" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="IC2" library="SPCoast" package="SO16" value="74LS139D" x="49.53" y="72.39" smashed="yes" rot="R270">
 <attribute name="VALUE" x="48.895" y="76.454" size="1.27" layer="27" ratio="10" rot="R270"/>
-<attribute name="NAME" x="47.752" y="65.151" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="47.752" y="65.151" size="1.016" layer="25" ratio="10"/>
 </element>
 <element name="R11" library="SPCoast" package="0805-RES" value="1K0" x="43.18" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="44.0055" y="84.582" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="42.7355" y="82.042" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="41.783" y="84.836" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="R12" library="SPCoast" package="0805-RES" value="470R" x="40.64" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="41.4655" y="84.582" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="40.1955" y="82.042" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="39.243" y="84.836" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="R10" library="SPCoast" package="0805-RES" value="1K0" x="45.72" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.5455" y="84.582" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="45.2755" y="82.042" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="44.323" y="84.836" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="R8" library="SPCoast" package="0805-RES" value="1K0" x="55.88" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="56.7055" y="84.582" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="55.4355" y="82.042" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="54.483" y="84.836" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="R9" library="SPCoast" package="0805-RES" value="470R" x="53.34" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="54.1655" y="84.582" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="52.8955" y="82.042" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="51.943" y="84.836" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="R7" library="SPCoast" package="0805-RES" value="1K0" x="58.42" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="59.2455" y="84.582" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="57.9755" y="82.042" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="57.023" y="84.836" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="IC3" library="SPCoast" package="SO16" value="74LS139D" x="24.13" y="72.39" smashed="yes" rot="R270">
 <attribute name="VALUE" x="23.495" y="76.454" size="1.27" layer="27" ratio="10" rot="R270"/>
-<attribute name="NAME" x="22.352" y="65.151" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="22.352" y="65.151" size="1.016" layer="25" ratio="10"/>
 </element>
 <element name="R17" library="SPCoast" package="0805-RES" value="1K0" x="17.78" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.6055" y="84.582" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="17.3355" y="82.042" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="16.383" y="84.836" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="R18" library="SPCoast" package="0805-RES" value="470R" x="15.24" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="16.0655" y="84.582" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="14.7955" y="82.042" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="13.843" y="84.836" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="R16" library="SPCoast" package="0805-RES" value="1K0" x="20.32" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="21.1455" y="84.582" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="19.8755" y="82.042" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="18.923" y="84.836" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="R14" library="SPCoast" package="0805-RES" value="1K0" x="30.48" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.3055" y="84.582" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="30.0355" y="82.042" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="29.083" y="84.836" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="R15" library="SPCoast" package="0805-RES" value="470R" x="27.94" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="28.7655" y="84.582" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="27.4955" y="82.042" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="26.543" y="84.836" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="R13" library="SPCoast" package="0805-RES" value="1K0" x="33.02" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.8455" y="84.582" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="32.5755" y="82.042" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="31.623" y="84.836" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C1" library="SPCoast" package="0603-CAP" value="0.1UF" x="74.93" y="78.74" smashed="yes" rot="R180">
-<attribute name="NAME" x="76.2" y="77.47" size="0.6096" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="76.2" y="77.47" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="76.2" y="80.645" size="0.6096" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C3" library="SPCoast" package="0603-CAP" value="0.1UF" x="24.13" y="78.74" smashed="yes" rot="R180">
-<attribute name="NAME" x="25.4" y="77.47" size="0.6096" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="25.4" y="77.47" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="25.4" y="80.645" size="0.6096" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C2" library="SPCoast" package="0603-CAP" value="0.1UF" x="49.53" y="78.74" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.8" y="77.47" size="0.6096" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="50.8" y="77.47" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="50.8" y="80.645" size="0.6096" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="IC4" library="SPCoast" package="SO28W" value="MCP23017SO" x="49.53" y="55.88" smashed="yes" rot="R270">
@@ -972,82 +972,82 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="31K2958" x="78.74" y="77.47" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
 <attribute name="MPN" value="MCP23017-E/SO" x="78.74" y="77.47" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
 <attribute name="MF" value="MICROCHIP" x="78.74" y="77.47" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
-<attribute name="NAME" x="51.181" y="58.166" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="51.181" y="58.166" size="1.016" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="40.386" y="43.053" size="1.778" layer="21" ratio="10"/>
 </element>
-<element name="CON7" library="SPCoast" package="I2C-L" value="" x="83.82" y="20.32" smashed="yes">
-<attribute name="NAME" x="76.708" y="6.604" size="0.889" layer="25" font="vector" ratio="11" rot="R90"/>
+<element name="CON7" library="SPCoast" package="I2C-L" value="I2C" x="83.82" y="20.32" smashed="yes">
+<attribute name="NAME" x="76.708" y="6.604" size="1.016" layer="25" font="vector" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="76.708" y="13.589" size="0.635" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="CON8" library="SPCoast" package="I2C-L" value="" x="13.97" y="20.32" smashed="yes">
-<attribute name="NAME" x="6.858" y="6.604" size="0.889" layer="25" font="vector" ratio="11" rot="R90"/>
+<element name="CON8" library="SPCoast" package="I2C-L" value="I2C" x="13.97" y="20.32" smashed="yes">
+<attribute name="NAME" x="6.858" y="6.604" size="1.016" layer="25" font="vector" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="6.858" y="13.589" size="0.635" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R26" library="SPCoast" package="0603-RES" value="4k7" x="48.26" y="22.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="49.53" y="24.13" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="49.53" y="24.13" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="46.355" y="24.13" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R27" library="SPCoast" package="0603-RES" value="4k7" x="41.91" y="22.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="43.18" y="24.13" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="43.18" y="24.13" size="1.016" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="40.005" y="24.13" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="SDA" library="SPCoast" package="1X02_LOCK" value="SDA" x="41.91" y="26.67" smashed="yes" rot="R90">
-<attribute name="NAME" x="40.0812" y="25.3238" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="40.0812" y="25.3238" size="1.016" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="45.085" y="25.4" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="SCL" library="SPCoast" package="1X02_LOCK" value="SCL" x="48.26" y="26.67" smashed="yes" rot="R90">
-<attribute name="NAME" x="46.4312" y="25.3238" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="46.4312" y="25.3238" size="1.016" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="51.435" y="25.4" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="SW2" library="SPCoast" package="EDG-04" value="" x="78.74" y="41.91" smashed="yes">
+<element name="SW2" library="SPCoast" package="EDG-04" value="SPSTx4" x="78.74" y="41.91" smashed="yes">
 <attribute name="VALUE" x="72.898" y="35.306" size="1.27" layer="27" ratio="10"/>
-<attribute name="NAME" x="72.898" y="47.244" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="72.898" y="47.244" size="1.016" layer="25" ratio="10"/>
 </element>
 <element name="R25" library="SPCoast" package="0603-RES" value="10K" x="74.93" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="73.66" y="49.53" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="74.93" y="53.34" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="76.835" y="49.53" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R24" library="SPCoast" package="0603-RES" value="10K" x="77.47" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="76.2" y="49.53" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="77.47" y="53.34" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="79.375" y="49.53" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R23" library="SPCoast" package="0603-RES" value="10K" x="80.01" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="78.74" y="49.53" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="80.01" y="53.34" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="81.915" y="49.53" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R21" library="SPCoast" package="0603-RES" value="2k2" x="38.1" y="55.88" smashed="yes">
-<attribute name="NAME" x="36.83" y="57.15" size="0.8128" layer="25" font="vector"/>
+<attribute name="NAME" x="33.02" y="55.88" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="36.83" y="53.975" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="R20" library="SPCoast" package="0603-RES" value="2k2" x="38.1" y="57.15" smashed="yes">
-<attribute name="NAME" x="36.83" y="58.42" size="0.8128" layer="25" font="vector"/>
+<attribute name="NAME" x="33.02" y="57.15" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="36.83" y="55.245" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="R19" library="SPCoast" package="0603-RES" value="2k2" x="38.1" y="58.42" smashed="yes">
-<attribute name="NAME" x="36.83" y="59.69" size="0.8128" layer="25" font="vector"/>
+<attribute name="NAME" x="33.02" y="58.42" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="36.83" y="56.515" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="SW1" library="SPCoast" package="4P-PTH-6.0X6.0X5.0H" value="" x="17.78" y="36.83" smashed="yes" rot="R270">
+<element name="SW1" library="SPCoast" package="4P-PTH-6.0X6.0X5.0H" value="SPST-MOM" x="17.78" y="36.83" smashed="yes" rot="R270">
 <attribute name="OMRON" value="B3F-10XX" x="17.78" y="36.83" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
 <attribute name="OPL" value="3110040P1" x="17.78" y="36.83" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
 <attribute name="BEST" value="TS-1109" x="17.78" y="36.83" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
-<attribute name="NAME" x="21.463" y="39.878" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="21.463" y="39.878" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="12.7" y="39.878" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="LED3" library="SPCoast" package="0603-LED" value="G" x="16.51" y="55.88" smashed="yes">
-<attribute name="NAME" x="15.24" y="57.15" size="1.27" layer="25"/>
+<attribute name="NAME" x="19.05" y="55.88" size="1.016" layer="25"/>
 <attribute name="VALUE" x="15.24" y="53.34" size="1.27" layer="27"/>
 </element>
 <element name="LED2" library="SPCoast" package="0603-LED" value="Y" x="16.51" y="57.15" smashed="yes">
-<attribute name="NAME" x="15.24" y="58.42" size="1.27" layer="25"/>
+<attribute name="NAME" x="19.05" y="57.15" size="1.016" layer="25"/>
 <attribute name="VALUE" x="15.24" y="54.61" size="1.27" layer="27"/>
 </element>
 <element name="LED1" library="SPCoast" package="0603-LED" value="R" x="16.51" y="58.42" smashed="yes">
-<attribute name="NAME" x="15.24" y="59.69" size="1.27" layer="25"/>
+<attribute name="NAME" x="19.05" y="58.42" size="1.016" layer="25"/>
 <attribute name="VALUE" x="15.24" y="55.88" size="1.27" layer="27"/>
 </element>
 <element name="R22" library="SPCoast" package="0603-RES" value="2k2" x="38.1" y="53.34" smashed="yes">
-<attribute name="NAME" x="36.83" y="54.61" size="0.8128" layer="25" font="vector"/>
+<attribute name="NAME" x="33.02" y="53.34" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="36.83" y="51.435" size="0.8128" layer="27" font="vector"/>
 </element>
 </elements>

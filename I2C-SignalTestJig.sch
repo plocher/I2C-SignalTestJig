@@ -3313,15 +3313,15 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <part name="P+6" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND12" library="SparkFun" deviceset="GND" device=""/>
 <part name="IC4" library="SPCoast" deviceset="MCP23017" device="SO"/>
-<part name="CON7" library="SPCoast" deviceset="CONNECTOR-I2C" device="LEFT"/>
-<part name="CON8" library="SPCoast" deviceset="CONNECTOR-I2C" device="LEFT"/>
+<part name="CON7" library="SPCoast" deviceset="CONNECTOR-I2C" device="LEFT" value="I2C"/>
+<part name="CON8" library="SPCoast" deviceset="CONNECTOR-I2C" device="LEFT" value="I2C"/>
 <part name="GND1" library="SPCoast" deviceset="GND" device=""/>
 <part name="R26" library="SPCoast" deviceset="R*" device="0603-RES" value="4k7"/>
 <part name="R27" library="SPCoast" deviceset="R*" device="0603-RES" value="4k7"/>
 <part name="SDA" library="SPCoast" deviceset="JUMPER-2" device="PTH_LOCK" value="SDA"/>
 <part name="SCL" library="SPCoast" deviceset="JUMPER-2" device="PTH_LOCK" value="SCL"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
-<part name="SW2" library="SPCoast" deviceset="SW_DIP-4" device=""/>
+<part name="SW2" library="SPCoast" deviceset="SW_DIP-4" device="" value="SPSTx4"/>
 <part name="R25" library="SPCoast" deviceset="R*" device="0603-RES" value="10K"/>
 <part name="R24" library="SPCoast" deviceset="R*" device="0603-RES" value="10K"/>
 <part name="R23" library="SPCoast" deviceset="R*" device="0603-RES" value="10K"/>
@@ -3332,7 +3332,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <part name="R21" library="SPCoast" deviceset="R*" device="0603-RES" value="2k2"/>
 <part name="R20" library="SPCoast" deviceset="R*" device="0603-RES" value="2k2"/>
 <part name="R19" library="SPCoast" deviceset="R*" device="0603-RES" value="2k2"/>
-<part name="SW1" library="SPCoast" deviceset="SWITCH-(ON)" device="SMALLPADS"/>
+<part name="SW1" library="SPCoast" deviceset="SWITCH-(ON)" device="SMALLPADS" value="SPST-MOM"/>
 <part name="LED3" library="SPCoast" deviceset="LED*" device="0603-LED" value="G"/>
 <part name="LED2" library="SPCoast" deviceset="LED*" device="0603-LED" value="Y"/>
 <part name="LED1" library="SPCoast" deviceset="LED*" device="0603-LED" value="R"/>
